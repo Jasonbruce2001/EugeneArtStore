@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xBEAe0/OCgHh21qWaF+ukWPCM71vIKhxDSe0i128yzg=",
+  "Hash": "o+dgXG9Ob0h3Ws1I1zbUWW9BF4fIWLrEWGdIHHKXwZA=",
   "Source": "EugeneArtStore",
   "BasePath": "_content/EugeneArtStore",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/.DS_Store"
+    },
+    {
+      "Identity": "/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/EugeneArtStore/EugeneArtStore/wwwroot/assets/fonts/Limelight-Regular.ttf",
+      "SourceId": "EugeneArtStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/EugeneArtStore/EugeneArtStore/wwwroot/",
+      "BasePath": "_content/EugeneArtStore",
+      "RelativePath": "assets/fonts/Limelight-Regular.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/fonts/Limelight-Regular.ttf"
     },
     {
       "Identity": "/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/EugeneArtStore/EugeneArtStore/wwwroot/assets/fonts/StepalangeRegular.ttf",

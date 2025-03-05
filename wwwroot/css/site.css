@@ -5,6 +5,11 @@
   src: url("../assets/fonts/StepalangeRegular.woff") format("woff"), url("../assets/fonts/StepalangeRegular.ttf")  format("truetype");
 }
 
+@font-face {
+  font-family: Limelight;
+  src: url("../assets/fonts/Limelight-Regular.ttf") format("truetype");
+}
+
 @media (min-width: 768px) {
   html {
     font-size: 16px;
@@ -18,8 +23,7 @@ html {
 
 body {
   margin-bottom: 60px;
-  font-family: Stepalange, sans-serif;
-  font-size: larger;
+  font-family: Limelight, sans-serif;
 }
 
 footer {
@@ -49,6 +53,10 @@ footer {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 1vw 3vw 1vw 3vw;
   width: max-content
+}
+
+.tableDescription {
+  table-layout: auto;
 }
 
 .gallery {
@@ -105,4 +113,16 @@ footer {
 
 .buttonField {
   min-width: 5vw;
+}
+
+.adminDash {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.adminQuickLinks {
+  
+}
+
+.adminStatistics {
+  border-left: 3px solid black;
 }

@@ -19,6 +19,26 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/EugeneArtStore/EugeneArtStore/Views/AdminArtwork/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5BcnR3b3JrL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/EugeneArtStore/EugeneArtStore/Views/AdminArtwork/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5BcnR3b3JrL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/EugeneArtStore/EugeneArtStore/Views/AdminArtwork/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5BcnR3b3JrL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/EugeneArtStore/EugeneArtStore/Views/AdminArtwork/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5BcnR3b3JrL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/EugeneArtStore/EugeneArtStore/Views/AdminArtwork/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5BcnR3b3JrL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/EugeneArtStore/EugeneArtStore/Views/AdminProduct/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5Qcm9kdWN0L0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -85,6 +105,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/EugeneArtStore/EugeneArtStore/Views/Sources/News.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU291cmNlcy9OZXdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/EugeneArtStore/EugeneArtStore/Views/Store/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RvcmUvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/EugeneArtStore/EugeneArtStore/Views/Store/Index.cshtml]

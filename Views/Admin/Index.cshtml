@@ -1,26 +1,43 @@
+@using Microsoft.AspNetCore.Identity
+@using Microsoft.AspNetCore.Mvc.TagHelpers
 @{
     ViewData["Title"] = "Admin Dashboard";
 }
+@inject SignInManager<AppUser> SignInManager
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid adminDash p-3">
         <div class="header">
             <h1>Admin Dashboard</h1>
         </div>
         <div class="row">
-            <div class="col-4">
+            <div class="col-4 adminQuickLinks">
+                <h3>Quick Links</h3>
                 <a class="nav-link text-dark navImportant" asp-area="" asp-controller="UserVm" asp-action="Index">
                     <i class="bi bi-person-fill-gear"></i> Manage Users
                 </a>
                 <a class="nav-link text-dark navImportant" asp-area="" asp-controller="AdminProduct" asp-action="Index">
                     <i class="bi bi-shop-window"></i> Manage Store
                 </a>
-                <a class="nav-link text-dark navImportant" asp-area="" asp-controller="UserVm" asp-action="Index">
+                <a class="nav-link text-dark navImportant" asp-area="" asp-controller="AdminArtwork" asp-action="Index">
                     <i class="bi bi-easel"></i> Manage Gallery
                 </a>
             </div>
-            <div class="col-8">
+            <div class="col-8 adminStatistics">
+                <!-- Users -->
+                <div class="row">
+                    <p>Active Users: @SignInManager.UserManager.Users.Count()</p>
+                </div>
                 
+                <!-- Store -->
+                <div class="row">
+
+                </div>
+
+                <!-- Gallery -->
+                <div class="row">
+
+                </div>
             </div>
         </div>
     </div>
