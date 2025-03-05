@@ -1,0 +1,152 @@
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/WebPortfolio.csproj.AssemblyReference.cache
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/WebPortfolio.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/WebPortfolio.AssemblyInfoInputs.cache
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/WebPortfolio.AssemblyInfo.cs
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/WebPortfolio.csproj.CoreCompileInputs.cache
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/WebPortfolio.MvcApplicationPartsAssemblyInfo.cache
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/WebPortfolio.RazorAssemblyInfo.cache
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/WebPortfolio.RazorAssemblyInfo.cs
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/appsettings.Development.json
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/appsettings.json
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/WebPortfolio.staticwebassets.runtime.json
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/WebPortfolio
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/WebPortfolio.deps.json
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/WebPortfolio.runtimeconfig.json
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/WebPortfolio.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/WebPortfolio.pdb
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/BouncyCastle.Cryptography.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Google.Protobuf.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Humanizer.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/K4os.Compression.LZ4.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/K4os.Compression.LZ4.Streams.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/K4os.Hash.xxHash.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/MySql.Data.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/MySql.EntityFrameworkCore.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/MySqlConnector.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/System.Collections.Immutable.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/System.Diagnostics.DiagnosticSource.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/System.IO.Pipelines.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/System.Security.Permissions.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/System.Text.Encoding.CodePages.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/System.Text.Encodings.Web.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/System.Text.Json.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/System.Windows.Extensions.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/ZstdSharp.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/runtimes/win-x64/native/comerr64.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/runtimes/win-x64/native/gssapi64.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/runtimes/win-x64/native/k5sprt64.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/runtimes/win-x64/native/krb5_64.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/runtimes/win-x64/native/krbcc64.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Text.Encoding.CodePages.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/staticwebassets.build.json
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/staticwebassets.development.json
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/scopedcss/bundle/WebPortfolio.styles.css
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/scopedcss/projectbundle/WebPortfolio.bundle.scp.css
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/WebPortfolio.csproj.CopyComplete
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/WebPortfolio.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/refint/WebPortfolio.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/WebPortfolio.pdb
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/WebPortfolio.genruntimeconfig.cache
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/ref/WebPortfolio.dll
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/package-lock.json
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/package.json
+/Users/jasonbruce/Documents/CodePersonal/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/appsettings.Production.json
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/appsettings.Development.json
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/appsettings.json
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/appsettings.Production.json
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/package-lock.json
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/package.json
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/WebPortfolio.staticwebassets.runtime.json
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/WebPortfolio
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/WebPortfolio.deps.json
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/WebPortfolio.runtimeconfig.json
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/WebPortfolio.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/WebPortfolio.pdb
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/BouncyCastle.Cryptography.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Google.Protobuf.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Humanizer.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/K4os.Compression.LZ4.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/K4os.Compression.LZ4.Streams.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/K4os.Hash.xxHash.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/MySql.Data.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/MySql.EntityFrameworkCore.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/MySqlConnector.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/System.Collections.Immutable.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/System.Diagnostics.DiagnosticSource.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/System.IO.Pipelines.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/System.Security.Permissions.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/System.Text.Encoding.CodePages.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/System.Text.Encodings.Web.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/System.Text.Json.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/System.Windows.Extensions.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/ZstdSharp.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/runtimes/win-x64/native/comerr64.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/runtimes/win-x64/native/gssapi64.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/runtimes/win-x64/native/k5sprt64.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/runtimes/win-x64/native/krb5_64.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/runtimes/win-x64/native/krbcc64.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Text.Encoding.CodePages.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/WebPortfolio.csproj.AssemblyReference.cache
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/WebPortfolio.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/WebPortfolio.AssemblyInfoInputs.cache
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/WebPortfolio.AssemblyInfo.cs
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/WebPortfolio.csproj.CoreCompileInputs.cache
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/WebPortfolio.MvcApplicationPartsAssemblyInfo.cache
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/WebPortfolio.RazorAssemblyInfo.cache
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/WebPortfolio.RazorAssemblyInfo.cs
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/staticwebassets.build.json
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/staticwebassets.development.json
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/scopedcss/bundle/WebPortfolio.styles.css
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/scopedcss/projectbundle/WebPortfolio.bundle.scp.css
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/WebPortfolio.csproj.CopyComplete
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/WebPortfolio.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/refint/WebPortfolio.dll
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/WebPortfolio.pdb
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/WebPortfolio.genruntimeconfig.cache
+/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/obj/Debug/net6.0/ref/WebPortfolio.dll

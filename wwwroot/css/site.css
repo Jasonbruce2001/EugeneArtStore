@@ -1,0 +1,108 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+@font-face {
+  font-family: Stepalange;
+  src: url("../assets/fonts/StepalangeRegular.woff") format("woff"), url("../assets/fonts/StepalangeRegular.ttf")  format("truetype");
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  font-family: Stepalange, sans-serif;
+  font-size: larger;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navBorder {
+  border-right: solid 1px black;
+}
+
+.navImportant:hover {
+  color: #0077cc !important;
+}
+
+.register {
+  margin-right: 0.5vw;
+}
+
+.registerInput {
+  margin-bottom: 0.5vw;
+}
+
+.registerForm {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1vw 3vw 1vw 3vw;
+  width: max-content
+}
+
+.gallery {
+  max-width: fit-content;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 10px;
+}
+
+.galleryItem {
+  max-width: fit-content;
+  margin-inline: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 0.5vw;
+  margin: 1.5vw;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  border-bottom: solid black 2px;
+}
+
+.editLink {
+  text-decoration: none;
+  color: black;
+}
+
+.homeTitle {
+  font-size: 10vw;
+}
+
+.tableButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profilePicture {
+  float: left;
+  margin-right: 1vw;
+  margin-bottom: 0.5vw;
+}
+
+.contactButton:hover {
+  font-size: xx-large;
+}
+
+.contactButton {
+  text-decoration: none;
+  color: black;
+}
+
+.buttonField {
+  min-width: 5vw;
+}

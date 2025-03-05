@@ -1,0 +1,92 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebPortfolio
+build_property.RootNamespace = WebPortfolio
+build_property.ProjectDir = /Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/Views/Home/SiteInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9TaXRlSW5mby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/Views/Portfolio/Art.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9ydGZvbGlvL0FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/Views/Portfolio/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9ydGZvbGlvL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/Views/Portfolio/Resume.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9ydGZvbGlvL1Jlc3VtZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/Views/RegisterVm/LogIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVnaXN0ZXJWbS9Mb2dJbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/Views/RegisterVm/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVnaXN0ZXJWbS9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/Views/Sources/FanSites.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU291cmNlcy9GYW5TaXRlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/Views/Sources/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU291cmNlcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/Views/Sources/News.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU291cmNlcy9OZXdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/Views/UserVm/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlclZtL0FjY2Vzc0RlbmllZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/Views/UserVm/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlclZtL0FkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/Views/UserVm/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlclZtL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jasonbruce/Documents/Lane Winter 2025/DOTNET/WebPortfolioSolution/WebPortfolio/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-d4hzlr6euv

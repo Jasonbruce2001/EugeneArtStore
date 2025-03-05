@@ -1,0 +1,41 @@
+@model List<Artwork>
+
+@{
+    ViewBag.Title = "Edit Gallery";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <h1 class="mb-2">Edit Gallery</h1>
+        </div>
+        <div class="col text-end" style="align-content: center;">
+            <h5 class="mt-2">
+                <a asp-action="Add">Add an Artwork</a>
+            </h5> 
+        </div>
+    </div>
+
+    <table class="table table-bordered table-striped table-sm">
+        <thead>
+        <tr><th>Title</th><th>Description</th><th>Date</th><th></th></tr>
+        </thead>
+        
+        <tbody>
+            @foreach (Artwork a in Model)
+            {
+                <tr class="align-middle">
+                    <td>@a.Title</td>
+                    <td>@a.Description</td>
+                    <td>@a.DateFinished</td>
+                    <td>
+                        <form class="tableButtons" method="post" asp-action="Delete" asp-route-id="@a.Id">
+                            <button type="submit" class="btn btn-primary"><h4><i class="bi bi-trash"></i></h4></button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
