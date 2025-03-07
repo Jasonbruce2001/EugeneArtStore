@@ -1,0 +1,31 @@
+@{
+    ViewData["Title"] = "Write Review";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <a asp-action="Details" asp-route-id="@ViewData["ProductId"]" class="btn btn-primary">Back</a>          
+        </div>
+    </div>
+    <div class="row">
+        <h1>Add a Review</h1>
+    </div>
+
+    <!-- Form input -->
+    <div class="formArea">
+        <form method="post">
+            <div class="row">
+                <input type = "hidden" name = "ProductId" value = "@ViewData["ProductId"]" />
+                <label for="Rating">Rating (1-10):</label>
+                <input type="number" required id="Rating" name="Rating" min="1" max="10"><br/>
+
+                <label for="Content">Comments:</label>
+                <textarea required id="Content" name="Content"></textarea>
+            </div>
+            <div class="row text-end mt-2">
+                <div class="col"><input type="submit" value="Submit"></div>
+            </div>
+        </form>
+    </div>
+</div>

@@ -32,7 +32,8 @@ public class SeedData
                 Price = 10.99m,
                 Name = "Titanium White Acrylic",
                 Description = "100ml Winsor Newton",
-                InStock = true
+                InStock = true,
+                PhotoUrl = "https://place-hold.it/400"
             };
             
             Product prod2 = new Product
@@ -40,7 +41,8 @@ public class SeedData
                 Price = 12.49m,
                 Name = "Cadmium Red Acrylic",
                 Description = "100ml Winsor Newton",
-                InStock = true
+                InStock = true,
+                PhotoUrl = "https://place-hold.it/400"
             };
 
             Product prod3 = new Product
@@ -48,7 +50,8 @@ public class SeedData
                 Price = 9.99m,
                 Name = "Ultramarine Blue Acrylic",
                 Description = "100ml Winsor Newton",
-                InStock = false
+                InStock = false,
+                PhotoUrl = "https://place-hold.it/400"
             };
 
             Product prod4 = new Product
@@ -56,7 +59,8 @@ public class SeedData
                 Price = 15.99m,
                 Name = "Burnt Sienna Oil Paint",
                 Description = "200ml Winsor Newton",
-                InStock = true
+                InStock = true,
+                PhotoUrl = "https://place-hold.it/400"
             };
 
             Product prod5 = new Product
@@ -64,7 +68,8 @@ public class SeedData
                 Price = 7.99m,
                 Name = "Lemon Yellow Gouache",
                 Description = "30ml Winsor Newton",
-                InStock = true
+                InStock = true,
+                PhotoUrl = "https://place-hold.it/400"
             };
 
             Product prod6 = new Product
@@ -72,7 +77,8 @@ public class SeedData
                 Price = 5.99m,
                 Name = "Graphite Sketching Pencil Set",
                 Description = "Set of 6, various hardness",
-                InStock = false
+                InStock = false,
+                PhotoUrl = "https://place-hold.it/400"
             };
 
             Product prod7 = new Product
@@ -80,7 +86,8 @@ public class SeedData
                 Price = 22.99m,
                 Name = "Synthetic Paintbrush Set",
                 Description = "Pack of 10, assorted sizes",
-                InStock = true
+                InStock = true,
+                PhotoUrl = "https://place-hold.it/400"
             };
 
             Product prod8 = new Product
@@ -88,7 +95,8 @@ public class SeedData
                 Price = 29.99m,
                 Name = "Cotton Canvas Panel",
                 Description = "16x20 inches, triple primed",
-                InStock = true
+                InStock = true,
+                PhotoUrl = "https://place-hold.it/400"
             };
 
             Product prod9 = new Product
@@ -96,7 +104,8 @@ public class SeedData
                 Price = 19.99m,
                 Name = "Acrylic Medium Gloss Gel",
                 Description = "250ml Liquitex",
-                InStock = true
+                InStock = true,
+                PhotoUrl = "https://place-hold.it/400"
             };
 
             Product prod10 = new Product
@@ -104,7 +113,8 @@ public class SeedData
                 Price = 14.99m,
                 Name = "Palette Knife Set",
                 Description = "Set of 5 stainless steel knives",
-                InStock = false
+                InStock = false,
+                PhotoUrl = "https://place-hold.it/400"
             };
                 
             context.Products.Add(prod1);
@@ -118,6 +128,62 @@ public class SeedData
             context.Products.Add(prod9);
             context.Products.Add(prod10);
             context.SaveChanges();
+        }
+
+        if (!context.Reviews.Any())
+        {
+            DateOnly date = DateOnly.FromDateTime(DateTime.Now);
+            const string SECRET_PASSWORD = "Pass123!";
+            AppUser rev = new AppUser { UserName = "Reviewer", AccountAge = date};
+            var result = userManager.CreateAsync(rev, SECRET_PASSWORD);
+
+            Review rev1 = new Review
+            {
+                Id = 1,
+                ProductId = 1,
+                Author = rev,
+                Content =
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor erat vitae justo consequat posuere. " +
+                    "Pellentesque tristique iaculis lectus eget consequat. Aliquam eu consequat purus, eu malesuada ante. Morbi " +
+                    "tempus vehicula turpis, et tempus enim blandit eget. Suspendisse condimentum nisi convallis fermentum varius. " +
+                    "Nunc blandit quam id ex dictum, vel tincidunt diam feugiat. Maecenas condimentum magna id dignissim ultricies.",
+                Helpful = 5,
+                Rating = 10,
+                DateCreated = DateTime.Now
+            };
+            Review rev2 = new Review
+            {
+                Id = 2,
+                ProductId = 1,
+                Author = rev,
+                Content =
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor erat vitae justo consequat posuere. " +
+                    "Pellentesque tristique iaculis lectus eget consequat. Aliquam eu consequat purus, eu malesuada ante. Morbi " +
+                    "tempus vehicula turpis, et tempus enim blandit eget. Suspendisse condimentum nisi convallis fermentum varius. " +
+                    "Nunc blandit quam id ex dictum, vel tincidunt diam feugiat. Maecenas condimentum magna id dignissim ultricies.",
+                Helpful = 1,
+                Rating = 7,
+                DateCreated = DateTime.Now
+            };
+            Review rev3 = new Review
+            {
+                Id = 3,
+                ProductId = 1,
+                Author = rev,
+                Content =
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor erat vitae justo consequat posuere. " +
+                    "Pellentesque tristique iaculis lectus eget consequat. Aliquam eu consequat purus, eu malesuada ante. Morbi " +
+                    "tempus vehicula turpis, et tempus enim blandit eget. Suspendisse condimentum nisi convallis fermentum varius. " +
+                    "Nunc blandit quam id ex dictum, vel tincidunt diam feugiat. Maecenas condimentum magna id dignissim ultricies.",
+                Helpful = 50,
+                Rating = 3,
+                DateCreated = DateTime.Now
+            };
+            
+            context.Reviews.Add(rev1);
+            context.Reviews.Add(rev2);
+            context.Reviews.Add(rev3);
+            context.SaveChanges(); 
         }
 
         if (!context.Artworks.Any())

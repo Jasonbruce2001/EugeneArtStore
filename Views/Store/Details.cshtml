@@ -5,8 +5,46 @@
 }
 
 <div class="container-fluid">
-    <h1>
-        @Model.Name;
-    </h1>
+    <div class="row mb-3">
+        <div class="col">
+            <a asp-action="Index" class="btn btn-primary">Back</a>
+        </div>
+    </div>
+    <div class="row productArea mb-3">
+        <div class="col-sm-4">
+            <img src="@Model.PhotoUrl" alt="@Model.Description"/>
+        </div>
+        <div class="col-8">
+            <h2 class="productName">@Model.Name</h2>
+            <h3>$@Math.Round(Model.Price, 2) -
+                @if (Model.InStock)
+                {
+                    <span>In Stock <i class="bi bi-check"></i> </span>
+                }
+                else
+                {
+                    <span>Out of Stock <i class="bi bi-x"></i> </span>
+                }
+            </h3>
+            <h3>@Model.Description</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3">
+            <a asp-action="ReviewForm" asp-route-id="@Model.Id" class="btn btn-primary">Add Review</a>
+        </div>
+        <div class="col-9">
+            @foreach (var item in ViewData["Reviews"] as IEnumerable<Review>)
+            {
+                <div class="row">
+                    <div class="col">
+                        <p>@item.Author.UserName - @item.Rating/10</p></div>
+                    <div class="col text-end">
+                        <p>Posted - @item.DateCreated</p></div>
+                    <p>@item.Content</p>
+                </div>
+            }
+        </div>
+    </div>
 </div>
 

@@ -14,5 +14,5 @@ public class ApplicationDbContext : IdentityDbContext<AppUser>
     // one DbSet for each domain model class
     public DbSet<Artwork> Artworks { get; set; }
     public DbSet<Product> Products { get; set; }
-    //public DbSet<Review> Reviews { get; set; }
+    public DbSet<Review> Reviews { get; set; }
 }

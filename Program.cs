@@ -16,7 +16,8 @@ builder.Services.AddControllersWithViews();
 
 //Example for later
 builder.Services.AddTransient<IArtworkRepository, ArtworkRepository>()
-                .AddTransient<IStoreRepository, StoreRepository>();
+    .AddTransient<IStoreRepository, StoreRepository>()
+    .AddTransient<IReviewRepository, ReviewRepository>();
 
 //add Identity
 builder.Services.AddIdentity<AppUser, IdentityRole>()

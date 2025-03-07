@@ -4,21 +4,36 @@
     ViewData["Title"] = "Store";
 }
 
-
+<div class="container-fluid d-flex justify-content-center">
+    <h1>EFA Store</h1>
+</div>
 <div class="container-fluid storeContainer">
-    <h1>Store</h1>
-    <div class="row">
+    <!-- Search and Filters -->
+    <div class="row storeFilters mb-2">
+        <div class="col">
+            <label for="Name">Item Name -</label>
+            <input name="Name" class="mx-1"/>
+            <button class="btn btn-primary">Search</button>
+        </div>
+        <div class="col text-end">
+            <a class="me-1" asp-action="Descending">Price Descending</a>
+            <a asp-action="Ascending">Price Ascending</a>
+        </div>
+    </div>
+
+    <!-- table start -->
+    <div class="row storeTable">
         <table class="table">
             <thead>
             <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.Price)
-                </th>
                 <th>
                     @Html.DisplayNameFor(model => model.Name)
                 </th>
                 <th>
                     @Html.DisplayNameFor(model => model.Description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Price)
                 </th>
                 <th>
                     @Html.DisplayNameFor(model => model.InStock)
@@ -27,11 +42,9 @@
             </tr>
             </thead>
             <tbody>
-            @foreach (var item in Model) {
+            @foreach (var item in Model)
+            {
                 <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Price)
-                    </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.Name)
                     </td>
@@ -39,7 +52,17 @@
                         @Html.DisplayFor(modelItem => item.Description)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.InStock)
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                        @if (item.InStock)
+                        {
+                            <i class="bi bi-check h3"></i>
+                        }
+                        else
+                        {
+                            <i class="bi bi-x h3"></i>
+                        }
                     </td>
                     <td>
                         <a asp-action="Details" asp-route-id="@item.Id">View</a>
