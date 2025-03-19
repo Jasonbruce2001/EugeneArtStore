@@ -41,10 +41,8 @@ public class ReviewRepository : IReviewRepository
     public async Task<int> StoreReviewAsync(Review model)
     {
         _context.Reviews.Add(model);
-        
-        Task<int> task = _context.SaveChangesAsync();
-        int result = await task;
-        return result; // returns a positive value if succussful
+
+        return await _context.SaveChangesAsync();
     }
 
     public int DeleteReview(int id)

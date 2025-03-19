@@ -1,0 +1,47 @@
+@model List<Artwork>
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<AppUser> SignInManager
+
+@{
+    ViewData["Title"] = "Artworks";
+}
+
+<div class="container mb-3">
+    @if (User.IsInRole("Admin"))
+    {
+        <div class="row">
+            <div class="col">
+                <h4><a asp-action="Edit" class="editLink"><i class="bi bi-image pe-1"></i>Edit Gallery</a></h4>
+            </div>
+            <div class="col text-end">
+                <a asp-action="Add" class="btn btn-primary">Add a submission</a>
+            </div>
+        </div>
+    } 
+    else if(SignInManager.IsSignedIn(User))
+    {
+        <div class="row text-end">
+            <a asp-action="Add" class="btn btn-primary">Add a submission</a>
+        </div>
+    }
+</div>
+
+<div class="titleContainer py-3">
+    <h1>Previews - Click to expand</h1>
+</div>
+
+<div class="container-lg gallery">
+    @if(Model.Any())
+    {
+        foreach (Artwork a in Model)
+        {
+            <a asp-action="DetailedGallery" asp-route-id="@a.Id" class="galleryItem">
+                <div class="container-fluid">
+                    <img src="@a.Link" alt="@a.Description" class="galleryThumbnail"/>
+                    <h4 class="pt-2">@a.Title</h4>
+                    <h5>@a.DatePosted.ToString("MMMM yyyy")</h5>
+                </div>
+            </a>
+        }
+    } 
+</div>

@@ -19,7 +19,7 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult SiteInfo()
+    public IActionResult News()
     {
         return View();
     }

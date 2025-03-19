@@ -10,21 +10,6 @@ public class SeedData
         var userManager = provider
             .GetRequiredService<UserManager<AppUser>>();
         
-        //only add users if there are none
-        if (!userManager.Users.Any())  
-        {
-            // Create User objects
-            DateOnly date = DateOnly.FromDateTime(DateTime.Now);
-            const string SECRET_PASSWORD = "Pass!123";
-            AppUser jasonBruce = new AppUser { UserName = "Jason Bruce", AccountAge = date};
-            var result = userManager.CreateAsync(jasonBruce, SECRET_PASSWORD);
-            
-            AppUser wyattQualiana = new AppUser { UserName = "Wyatt Qualiana", AccountAge = date};
-            result = userManager.CreateAsync(wyattQualiana, SECRET_PASSWORD);
-            
-            context.SaveChanges(); 
-        }
-
         if (!context.Products.Any())
         {
             Product prod1 = new Product
@@ -136,6 +121,7 @@ public class SeedData
             const string SECRET_PASSWORD = "Pass123!";
             AppUser rev = new AppUser { UserName = "Reviewer", AccountAge = date};
             var result = userManager.CreateAsync(rev, SECRET_PASSWORD);
+            context.SaveChanges();
 
             Review rev1 = new Review
             {
@@ -188,44 +174,56 @@ public class SeedData
 
         if (!context.Artworks.Any())
         {
+            // Create User objects
+            DateOnly date = DateOnly.FromDateTime(DateTime.Now);
+            const string SECRET_PASSWORD = "Pass!123";
+            AppUser author = new AppUser { UserName = "TestAuthor", AccountAge = date};
+            var result = userManager.CreateAsync(author, SECRET_PASSWORD);
+            context.SaveChanges();
+            
             Artwork art1 = new Artwork
             {
                 Title = "Test Work",
+                Author = author,
                 Description = "Test Work Description",
                 Link = "https://place-hold.it/200",
-                DateFinished = DateOnly.FromDateTime(DateTime.Now)
+                DatePosted = DateOnly.FromDateTime(DateTime.Now)
             };
             
             Artwork art2 = new Artwork
             {
                 Title = "Test Work 2",
+                Author = author,
                 Description = "Test Work Description",
                 Link = "https://place-hold.it/200",
-                DateFinished = DateOnly.FromDateTime(DateTime.Now)
+                DatePosted = DateOnly.FromDateTime(DateTime.Now)
             };
             
             Artwork art3 = new Artwork
             {
                 Title = "Test Work 3",
+                Author = author,
                 Description = "Test Work Description",
                 Link = "https://place-hold.it/200",
-                DateFinished = DateOnly.FromDateTime(DateTime.Now)
+                DatePosted = DateOnly.FromDateTime(DateTime.Now)
             };
             
             Artwork art4 = new Artwork
             {
                 Title = "Test Work 4",
+                Author = author,
                 Description = "Test Work Description",
                 Link = "https://place-hold.it/200",
-                DateFinished = DateOnly.FromDateTime(DateTime.Now)
+                DatePosted = DateOnly.FromDateTime(DateTime.Now)
             };
             
             Artwork art5 = new Artwork
             {
                 Title = "Test Work 5",
+                Author = author,
                 Description = "Test Work Description",
                 Link = "https://place-hold.it/200",
-                DateFinished = DateOnly.FromDateTime(DateTime.Now)
+                DatePosted = DateOnly.FromDateTime(DateTime.Now)
             };
             
             context.Artworks.Add(art1);

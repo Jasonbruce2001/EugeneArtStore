@@ -1,20 +1,22 @@
+@using Microsoft.AspNetCore.Identity
 @model Product
+@inject SignInManager<AppUser> SignInManager
 
 @{
     ViewData["Title"] = "Store Detailed";
 }
 
-<div class="container-fluid">
+<div class="container">
     <div class="row mb-3">
         <div class="col">
             <a asp-action="Index" class="btn btn-primary">Back</a>
         </div>
     </div>
     <div class="row productArea mb-3">
-        <div class="col-sm-4">
+        <div class="col-xl-4">
             <img src="@Model.PhotoUrl" alt="@Model.Description"/>
         </div>
-        <div class="col-8">
+        <div class="col-xl-8">
             <h2 class="productName">@Model.Name</h2>
             <h3>$@Math.Round(Model.Price, 2) -
                 @if (Model.InStock)
@@ -31,18 +33,29 @@
     </div>
     <div class="row">
         <div class="col-3">
-            <a asp-action="ReviewForm" asp-route-id="@Model.Id" class="btn btn-primary">Add Review</a>
+            @if (SignInManager.IsSignedIn(User))
+            {
+                <a asp-action="ReviewForm" asp-route-productId="@Model.Id" class="btn btn-primary">Add Review</a>
+            }
         </div>
         <div class="col-9">
-            @foreach (var item in ViewData["Reviews"] as IEnumerable<Review>)
+            @{ var reviews = ViewData["Reviews"] as IEnumerable<Review>; }
+            @if (reviews.Any())
             {
-                <div class="row">
-                    <div class="col">
-                        <p>@item.Author.UserName - @item.Rating/10</p></div>
-                    <div class="col text-end">
-                        <p>Posted - @item.DateCreated</p></div>
-                    <p>@item.Content</p>
-                </div>
+                @foreach (var item in reviews)
+                {
+                    <div class="row">
+                        <div class="col">
+                            <p>@item.Author.UserName - @item.Rating/10</p></div>
+                        <div class="col text-end">
+                            <p>Posted - @item.DateCreated</p></div>
+                        <p>@item.Content</p>
+                    </div>
+                }
+            }
+            else
+            {
+                <h3 class="text-center">No Reviews</h3>
             }
         </div>
     </div>

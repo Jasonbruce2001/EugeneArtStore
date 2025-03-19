@@ -1,0 +1,79 @@
+@using Microsoft.AspNetCore.Identity
+@model Artwork
+@inject SignInManager<AppUser> SignInManager
+
+@{
+    ViewData["Title"] = "Gallery";
+}
+
+<div class="container">
+    <a asp-action="Index" class="btn btn-primary mb-4">Back</a>
+    <div class="container-fluid DetailedGalleryBody mb-3">
+        <div class="row">
+            <h3>@Model.Title - By @Model.Author.UserName</h3>
+        </div>
+        <div class="row">
+            <div class="container-fluid imageContainer mb-2">
+                <img class="img-fluid detailedImage" src="@Model.Link" alt="@Model.Description"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>Posted @Model.DatePosted.ToString("MMMM yyyy")</p>
+            </div>
+            <div class="col text-end">
+                <a asp-action="LikePost"></a>
+                <p>@Model.Likes Likes</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>@Model.Description</p>
+            </div>
+            <div class="col text-end">
+                <a asp-action="DetailedGallery">Toggle Comment Box</a>
+            </div>
+        </div>
+    </div>
+
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <div class="containerComments mb-3">
+            <form method="post">
+                <div class="row">
+                    <input type="hidden" name="ArtworkId" value="@Model.Id"/>
+                    <div class="col-10">
+                        <textarea name="content" id="content" class="commentInput"></textarea>
+                    </div>
+                    <div class="col text-center align-content-center">
+                        <button type="submit" class="btn btn-primary">Post</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    }
+
+    <div class="containerComments px-5">
+        @{ var comments = ViewData["comments"] as IEnumerable<Comment>; }
+        @if (comments.Any())
+        {
+            @foreach (Comment c in ViewData["comments"] as IEnumerable<Comment>)
+            {
+                <div class="row">
+                    <p>@c.Content</p>
+                </div>
+                <div class="row text-end">
+                    <p>Posted by @c.Author.UserName on @c.DateCreated</p>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="row text-center">
+                <p>No Comments Yet. Start the Discussion!</p>
+            </div>
+        }
+
+    </div>
+</div>
+

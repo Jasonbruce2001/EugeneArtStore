@@ -1,5 +1,6 @@
 using EugeneArtStore.Data;
 using EugeneArtStore.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,7 +10,7 @@ public class StoreController : Controller
 {
     private readonly IStoreRepository _repository;
     private readonly IReviewRepository _reviewRepository;
-    private UserManager<AppUser> _userManager; 
+    private readonly UserManager<AppUser> _userManager; 
 
     public StoreController(IStoreRepository repo, IReviewRepository reviewRepo, UserManager<AppUser> userManager)
     {
@@ -44,27 +45,44 @@ public class StoreController : Controller
         return View("Index", model);
     }
 
-    public IActionResult ReviewForm(int id)
+    public IActionResult Filter(string search)
     {
-        ViewData["ProductId"] = id;
+        IEnumerable<Product> model;
+
+        if (string.IsNullOrEmpty(search))
+        {
+            model = _repository.GetProducts().ToList();
+        }
+        else
+        {
+            model = _repository.GetProducts()
+                .Where(p => p.Name.ToLower().Contains(search.ToLower()))
+                .ToList();
+        }
+        
+        return View("Index", model);
+    }
+
+    public IActionResult ReviewForm(int productId)
+    {
+        ViewData["ProductId"] = productId;
         
         return View();
     }
 
+    [Authorize]
     [HttpPost]
     public async Task<IActionResult> ReviewForm(Review model)
     {
         model.Author = await _userManager.GetUserAsync(User);
+        model.DateCreated = DateTime.Now;
         
-        if (_reviewRepository.StoreReviewAsync(model).Result > 0)
-        {
-            return View("Index", _repository.GetProducts());
-        }
-        else
-        {
-            ViewBag.ErrorMessage = "There was an error saving the story.";
-            return View("Index", _repository.GetProducts());
-        }
+        await _reviewRepository.StoreReviewAsync(model);
+        
+        var product = _repository.GetProductById(model.ProductId);
+        ViewData["Reviews"] = _reviewRepository.GetProductReviews(model.ProductId);
+        
+        return View("Details", product);
     }
     
 }

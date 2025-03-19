@@ -1,5 +1,5 @@
 ﻿@using Microsoft.AspNetCore.Identity
-@inject SignInManager<AppUser> signInManager
+@inject SignInManager<AppUser> SignInManager
 
 <!DOCTYPE html>
 <html lang="en">
@@ -30,57 +30,59 @@
                         <a class="nav-link text-dark navImportant" asp-area="" asp-controller="Store" asp-action="Index">Store</a>
                     </li>
                     <li class="nav-item navBorder">
-                        <a class="nav-link text-dark navImportant" asp-area="" asp-controller="Gallery" asp-action="Art">Gallery</a>
+                        <a class="nav-link text-dark navImportant" asp-area="" asp-controller="Gallery" asp-action="Index">Gallery</a>
                     </li>
                     <li class="nav-item navBorder">
-                        <a class="nav-link text-dark navImportant" asp-area="" asp-controller="Home" asp-action="SiteInfo">About Us</a>
+                        <a class="nav-link text-dark navImportant" asp-area="" asp-controller="Home" asp-action="News">News</a>
                     </li>
 
                     <!-- Admin page -->
                     @if (User.IsInRole("Admin"))
                     {
-                    <li class="nav-item">
-                        <a class="nav-link text-dark navImportant" asp-area="" asp-controller="Admin" asp-action="Index">
-                            Admin Dashboard
-                        </a>
-                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark navImportant" asp-area="" asp-controller="Admin" asp-action="Index">
+                                Admin Dashboard
+                            </a>
+                        </li>
                     }
                 </ul>
 
                 <!-- Log-in/log-out -->
                 <ul class="nav navbar navbar-right">
-                    @if (signInManager.IsSignedIn(User))
+                    @if (SignInManager.IsSignedIn(User))
                     {
-                    <li class="nav-item me-5">
-                        <form method="post" asp-action="Logout" asp-controller="RegisterVm">
-                            <span class="text-dark LogOut">@User.Identity.Name</span>
-                            <input type="submit" value="Log Out" class="btn btn-outline-dark ms-2"/>
-                        </form>
-                    </li>
+                        <li class="nav-item me-5">
+                            <form method="post" asp-action="Logout" asp-controller="RegisterVm">
+                                <span class="text-dark LogOut">@User.Identity.Name</span>
+                                <input type="submit" value="Log Out" class="btn btn-outline-dark ms-2"/>
+                            </form>
+                        </li>
                     }
                     else
                     {
-                    // Get current action
-                    var action = ViewContext.RouteData.Values["action"]?.ToString();
-                    // anonymous user - Register link and Log In button
-                    <li class="nav-item register">
-                        <a class="btn btn-outline-dark register" asp-controller="RegisterVm" asp-action="Register">
-                            <span class="fas fa-edit"></span>Register</a>
-                    </li>
-                    <li class="nav-item me-5">
-                        <a class="btn btn-outline-dark" asp-action="LogIn" asp-controller="RegisterVm">Log In</a>
-                    </li>
+                        // Get current action
+                        var action = ViewContext.RouteData.Values["action"]?.ToString();
+                        // anonymous user - Register link and Log In button
+                        <li class="nav-item register">
+                            <a class="btn btn-outline-dark register" asp-controller="RegisterVm" asp-action="Register">
+                                <span class="fas fa-edit"></span>Register</a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="btn btn-outline-dark" asp-action="LogIn" asp-controller="RegisterVm">Log In</a>
+                        </li>
                     }
                 </ul>
             </div>
         </div>
     </nav>
 </header>
-<div class="container">
-    <main role="main" class="pb-3">
+
+<main role="main" class="pb-3">
+    <div class="container">
         @RenderBody()
-    </main>
-</div>
+    </div>
+</main>
+
 
 <footer class="border-top footer text-muted py-3">
     <div class="container">

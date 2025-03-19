@@ -1,0 +1,29 @@
+@{
+    ViewBag.Title = "Add Submission";
+}
+
+<div class="container-fluid">
+    <div class="row text-center">
+        <h1 class="mb-5">Add Submission</h1>
+    </div>
+    
+    <div class="container addGallery">
+        <form method="post">
+            <div class="row mb-3">
+                <label for="Link" name="Link">Link:</label>
+                <input id="Link" name="Link"/>
+            </div>
+            <div class="row mb-3">
+            <label for="Title" name="Title">Title:</label>
+            <input id="Title" name="Title"/>
+            </div>
+            <div class="row mb-3">
+                <label for="Description" name="Description">Description:</label>
+                <textarea id="Description" name="Description"></textarea>
+            </div>
+            <div class="row">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>

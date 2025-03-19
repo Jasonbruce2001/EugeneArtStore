@@ -28,15 +28,24 @@ public class StoreRepository : IStoreRepository
 
     public Product GetProductById(int id)
     {
-        return _context.Products.Find(id);
+        var model = _context.Products.Find(id);
+
+        if (model != null)
+        {
+            return model;
+        }
+        else
+        {
+            throw new ArgumentException("Product not found");
+        }
     }
 
     public async Task<int> StoreProductAsync(Product model)
     {
         _context.Products.Add(model);
-        
         Task<int> task = _context.SaveChangesAsync();
-        int result = await task;
+        
+        var result = await task;
         return result; // returns a positive value if succussful
     }
 

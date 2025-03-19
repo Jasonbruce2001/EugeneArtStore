@@ -1,4 +1,5 @@
 using EugeneArtStore.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace EugeneArtStore.Data;
 
@@ -12,12 +13,17 @@ public class ArtworkRepository : IArtworkRepository
     }
     public List<Artwork> GetArtworks()
     {
-        return _context.Artworks.ToList();
+        return _context.Artworks
+                        .Include(a => a.Author)
+                        .ToList();
+                                
     }
 
     public Artwork GetArtworkById(int id)
     {
-        return _context.Artworks.Find(id);
+        return _context.Artworks
+            .Include(a => a.Author)
+            .FirstOrDefault(a => a.Id == id);
     }
 
     public int DeleteArtworkById(int id)

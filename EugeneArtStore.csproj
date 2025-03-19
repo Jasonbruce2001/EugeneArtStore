@@ -29,4 +29,10 @@
       <Folder Include="wwwroot\assets\fonts\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\Sources\FanSites.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Sources\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Sources\News.cshtml" />
+    </ItemGroup>
+
 </Project>

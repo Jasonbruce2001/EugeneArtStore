@@ -15,4 +15,5 @@ public class ApplicationDbContext : IdentityDbContext<AppUser>
     public DbSet<Artwork> Artworks { get; set; }
     public DbSet<Product> Products { get; set; }
     public DbSet<Review> Reviews { get; set; }
+    public DbSet<Comment> Comments { get; set; }
 }

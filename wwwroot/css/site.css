@@ -41,6 +41,12 @@ footer {
   color: #0077cc !important;
 }
 
+.titleContainer {
+  background-color: cornflowerblue;
+  width: 100%;
+  text-align: center;
+}
+
 .register {
   margin-right: 0.5vw;
 }
@@ -93,6 +99,51 @@ footer {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 0.5vw;
   margin: 1.5vw;
+  text-decoration: none;
+  color: black;
+}
+
+.galleryThumbnail {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.DetailedGalleryBody {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 2vw;
+}
+
+.containerComments {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1vw;
+}
+
+.commentInput {
+  width: 100%;
+}
+
+.imageContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1vw 0 1vw 0;
+  background: lightgray;
+}
+
+.detailedImage {
+  object-fit: contain;
+  height: 40vw;
+}
+
+.addGallery {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 3vw;
+  width: 50%;
+}
+
+.galleryFormInput {
+  
 }
 
 .header {
@@ -107,7 +158,7 @@ footer {
 }
 
 .homeTitle {
-  font-size: 10vw;
+  font-size: 8vw;
 }
 
 .tableButtons {

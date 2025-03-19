@@ -92,12 +92,18 @@ namespace EugeneArtStore.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<DateOnly>("DateFinished")
+                    b.Property<string>("AuthorId")
+                        .HasColumnType("varchar(255)");
+
+                    b.Property<DateOnly>("DatePosted")
                         .HasColumnType("date");
 
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("longtext");
+
+                    b.Property<int>("Likes")
+                        .HasColumnType("int");
 
                     b.Property<string>("Link")
                         .IsRequired()
@@ -109,7 +115,35 @@ namespace EugeneArtStore.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("AuthorId");
+
                     b.ToTable("Artworks");
+                });
+
+            modelBuilder.Entity("EugeneArtStore.Models.Comment", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<int>("ArtworkId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("AuthorId")
+                        .HasColumnType("varchar(255)");
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<DateTime>("DateCreated")
+                        .HasColumnType("datetime(6)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AuthorId");
+
+                    b.ToTable("Comments");
                 });
 
             modelBuilder.Entity("EugeneArtStore.Models.Product", b =>
@@ -298,6 +332,24 @@ namespace EugeneArtStore.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens", (string)null);
+                });
+
+            modelBuilder.Entity("EugeneArtStore.Models.Artwork", b =>
+                {
+                    b.HasOne("EugeneArtStore.Models.AppUser", "Author")
+                        .WithMany()
+                        .HasForeignKey("AuthorId");
+
+                    b.Navigation("Author");
+                });
+
+            modelBuilder.Entity("EugeneArtStore.Models.Comment", b =>
+                {
+                    b.HasOne("EugeneArtStore.Models.AppUser", "Author")
+                        .WithMany()
+                        .HasForeignKey("AuthorId");
+
+                    b.Navigation("Author");
                 });
 
             modelBuilder.Entity("EugeneArtStore.Models.Review", b =>
